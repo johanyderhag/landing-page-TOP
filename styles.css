@@ -1,5 +1,136 @@
-body {
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;700;900&display=swap");
+
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  /* width: 80%;
+  margin: auto; */
+  font-family: "Roboto", sans-serif;
+}
+
+.nav-hero {
+  background-color: #1f2937;
+}
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+.nav {
+  background-color: #1f2937;
+  color: #f9faf8;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10px;
+}
+.nav p {
+  font-size: 24px;
+  font-weight: 700;
+}
+a {
+  text-decoration: none;
+  color: #f9faf8;
+}
+li {
+  display: inline;
+  margin: 10px;
+}
+
+main {
+  background-color: #1f2937;
+  height: 350px;
+  display: flex;
+  align-items: center;
+}
+
+.hero {
+  color: #f9faf8;
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+  height: 250px;
+  gap: 30px;
+}
+
+.hero-text {
+  width: 30%;
+}
+.hero-img {
+  width: 500px;
+  height: 200px;
+}
+h1 {
+  font-size: 48px;
+  font-weight: 900;
+}
+
+button {
+  padding: 5px 15px 5px 15px;
+  margin-top: 10px;
+  background-color: #3882f6;
+  border: 1px solid #3882f6;
+  border-radius: 0.5rem;
+  color: #f9faf8;
+  font-weight: 700;
+}
+h2 {
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  padding: 30px;
+}
+
+.info-pics {
+  display: flex;
+}
+.info-pics img {
+  border: 3px solid #3882f6;
+  border-radius: 0.8rem;
+  width: 150px;
+  height: 150px;
+}
+.q-container {
+  background-color: #e5e7eb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+}
+.quote {
+  font-weight: 100;
+  font-style: italic;
+  font-size: 24px;
+  width: 60%;
+}
+
+figure {
+  margin: 10px;
+}
+.cot-container {
+  display: flex;
+  height: 250px;
+  justify-content: center;
+  align-items: center;
+}
+.cot {
+  background-color: #3882f6;
+  width: 80%;
+  height: 50%;
+  border-radius: 00.5rem;
+  color: #f9faf8;
+}
+
+footer {
+  background-color: #1f2937;
+  text-align: center;
+  color: #f9faf8;
+  font-weight: 100;
+}
+footer p {
+  padding: 15px;
 }
